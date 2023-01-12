@@ -31,18 +31,8 @@ a le même effet que les classes CSS
 <link rel="stylesheet" href="https://ita-design-system.github.io/c-flex.scss/content/css/c-flex.generic.css">
 <!-- Avec des classes responsives -->
 <div class="c-dim">c-dim tout seul n'a pas d'effet</div>
-<div class="c-dim m-w-1t">1t</div>
-<div class="c-dim m-w-2t">2t</div>
-<div class="c-dim m-w-3t">3t</div>
-<div class="c-dim m-w-4t">4t</div>
-<div class="c-dim m-w-5t">5t</div>
-<div class="c-dim m-w-6t">6t</div>
-<div class="c-dim m-w-7t">7t</div>
-<div class="c-dim m-w-8t">8t</div>
-<div class="c-dim m-w-9t">9t</div>
-<div class="c-dim m-w-10t">10t</div>
-<div class="c-dim m-w-11t">11t</div>
-<div class="c-dim m-w-12t">12t</div>
+<div class="c-dim m-w-4t m-w-8t--sm m-w-12t--xs">Je suis en 4/12 par défaut<br> en 8/12 sur écran sm<br> et pleine largeur sur écran xs</div>
+<div class="c-dim" m-w-10t="xs,sm">Je suis en 10/12 sur les écrans xs et sm</div>
 <!-- DEMO UNIQUEMENT -->
 <style>
     body {
