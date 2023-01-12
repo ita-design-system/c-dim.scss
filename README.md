@@ -2,8 +2,7 @@
 
 [Démo et documentation](https://ita-design-system.github.io/c-dim.scss/)
 
-Composant générique CSS c-dim du système de design IT Automotive.
-
+Composant CSS dédié aux dimensions et comportements liés à la taille des éléments.
 
 ## Typologie d'un composant générique
 
