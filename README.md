@@ -30,6 +30,7 @@ Organisation et description du fichier de configuration [_sass/_dim_generic.scss
 ```scss
 /*
     C-DIM
+    v0.1.0
     Composant générique CSS ITADS
     https://github.com/ita-design-system/c-dim.scss
 */
@@ -93,9 +94,9 @@ $briks-components-generic: (
                 // c-dim m-maxw-100
                 max-width: 100%
             ),
-            maxw-100vw: (
-                // c-dim m-maxw-100vw
-                max-width: 100vw
+            w-100vw: (
+                // c-dim m-w-100vw
+                width: 100vw
             ),
             w-100: (
                 // c-dim m-w-100
@@ -110,9 +111,9 @@ $briks-components-generic: (
                 // c-dim m-maxh-100
                 max-height: 100%
             ),
-            maxh-100vh: (
-                // c-dim m-maxh-100vh
-                max-height: 100vh
+            h-100vh: (
+                // c-dim m-h-100vh
+                height: 100vh
             ),
             h-100: (
                 // c-dim m-h-100
@@ -183,19 +184,19 @@ $briks-components-generic: (
 
 Il est possible d'étendre les fonctionnalités du composant en ajoutant simplement un point d'entrée avec une déclaration `$briks-components-generic` à la typologie identique mais avec des propriétés par défaut et des modifieurs qui surchargent ou ajoutent des propriétés CSS.
 
-L'exemple suivant reprend la logique de l'extension de composant en y ajoutant des gaps flexbox.
+Par exemple :
 
 ```scss
 /*
-    C-FLEX EXTENSION
-    Extension du composant générique c-flex
-    https://github.com/ita-design-system/c-flex.scss
+    C-DIM EXTENSION
+    Extension du composant générique c-dim
+    https://github.com/ita-design-system/c-dim.scss
     Ce fichier doit servir à étendre ou surcharger les fonctionnalités
-    du composant c-flex selon les besoins du projet
+    du composant c-dim selon les besoins du projet
 */
 $briks-components-generic: (
     // Nom du composant, obligatoirement flex
-    flex: ( 
+    dim: ( 
         // Extension activée true ou false
         enabled: true, 
         // Responsive activée true ou false pour l'extension
@@ -207,16 +208,11 @@ $briks-components-generic: (
         // soit ajoutent des propriétés
         // soit les deux
         modifiers: ( 
-            // Gap
-            // Surcharge de la variable CSS --ita-gap pour compatibilité avec c-dim
-            gap-1: ( // c-flex m-gap-1
-                --ita-gap: my-spacing(2)
-            ),
-            gap-2: ( // c-flex m-gap-2
-                --ita-gap: my-spacing(4)
-            ),
-            gap-3: ( // c-flex m-gap-3
-                --ita-gap: my-spacing(8)
+            // Exemple d'ajout d'une largeur fixe
+            fixedw-1: ( // c-dim m-fw-1
+                width: 100px,
+                min-width: 100px,
+                min-width: 100px
             )
         )
     )
