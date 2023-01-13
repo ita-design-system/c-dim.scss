@@ -28,7 +28,6 @@ a le même effet que les classes CSS
 ```
 
 ```html
-<link rel="stylesheet" href="https://ita-design-system.github.io/c-flex.scss/content/css/c-flex.generic.css">
 <!-- Avec des classes responsives -->
 <div class="c-dim">c-dim tout seul n'a pas d'effet</div>
 <div class="c-dim m-w-4t m-w-8t--sm m-w-12t--xs">Je suis en 4/12 par défaut<br> en 8/12 sur écran sm<br> et pleine largeur sur écran xs</div>

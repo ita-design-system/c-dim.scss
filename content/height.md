@@ -1,23 +1,16 @@
 ---
-title: Tantièmes
-description: Modifieurs c-dim dédiés aux largeurs en tantièmes
+title: Hauteurs
+description: Modifieurs c-dim dédiés aux hauteurs
 layout: libdoc/page-split
-order: 200
+order: 500
 ---
 ```html
 <div class="c-dim">c-dim tout seul n'a pas d'effet</div>
-<div class="c-dim m-w-1t">1t</div>
-<div class="c-dim m-w-2t">2t</div>
-<div class="c-dim m-w-3t">3t</div>
-<div class="c-dim m-w-4t">4t</div>
-<div class="c-dim m-w-5t">5t</div>
-<div class="c-dim m-w-6t">6t</div>
-<div class="c-dim m-w-7t">7t</div>
-<div class="c-dim m-w-8t">8t</div>
-<div class="c-dim m-w-9t">9t</div>
-<div class="c-dim m-w-10t">10t</div>
-<div class="c-dim m-w-11t">11t</div>
-<div class="c-dim m-w-12t">12t</div>
+<div class="c-dim m-h-100">m-h-100<br>height: 100%</div>
+<div class="c-dim m-h-100vh">m-h-100vw<br>height: 100vh</div>
+<div class="c-dim m-h-auto">m-h-auto<br>height: auto</div>
+<div class="c-dim m-maxh-100">m-maxh-100<br>max-height: 100%</div>
+<div class="c-dim" m-h-100vh="xs">height: 100vh sur écrans xs</div>
 <!-- DEMO UNIQUEMENT -->
 <style>
     body {
@@ -37,6 +30,6 @@ order: 200
     }
 </style>
 ```
-{:.playground title="Modifieurs pour l'axe main"}
+{:.playground title="Modifieurs hauteurs"}
 
 
