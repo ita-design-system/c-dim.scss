@@ -8,8 +8,8 @@ plugins:
 title: c-dim # title of the documentation
 description: >- # Description of the docs. (>- means to ignore newlines until next param)
   Documentation du composant CSS dédié aux dimensions et comportements liés à la taille des éléments.
-baseurl: "/c-dim.scss/_site" # the subpath of your site, e.g. /blog
-url: "http://192.168.1.54" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "/c-dim.scss/_site" # the subpath of your site, e.g. /blog
+# url: "http://192.168.1.54" # the base hostname & protocol for your site, e.g. http://example.com
 #permalink: /:path/:basename/:output_ext
 #destination: ../marcelrent/public/proto-app # Build relative path destination. The destination directory e.g. /blog
 #keep_files: [cache]
