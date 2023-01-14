@@ -19,12 +19,7 @@ order: 600
 <label for="gap-2">Valeur de gap 2</label>
 
 <div class="c-flex">
-    <span>Ces</span>
-    <span>éléments</span>
-    <span>sont</span>
-    <span>des</span>
-    <span>items</span>
-    <span class="c-dim m-ba-always">flexbox.<br>m-ba-always <br>L'item suivant revient à la ligne.</span>
+    <div class="c-dim m-w-12t">Ces éléments sont des items flexbox</div>
     <div class="c-dim m-w-1t">1t</div>
     <div class="c-dim m-w-1t">1t</div>
     <div class="c-dim m-w-1t">1t</div>
@@ -66,7 +61,6 @@ order: 600
     <div class="c-dim m-w-11t">11t</div>
     <div class="c-dim m-w-1t">1t</div>
     <div class="c-dim m-w-12t">12t</div>
-    <div class="c-dim m-ba-always">m-ba-always</div>
     <div class="c-dim m-w-6t">6t</div>
     <div class="c-dim">item</div>
     <div class="c-dim m-grow">m-grow<br>Étend l'élément <br>en fonction de la <br>place disponible.</div>

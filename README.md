@@ -83,12 +83,6 @@ $briks-components-generic: (
                 // c-dim m-grow
                 flex-grow: 1
             ),
-            // Pour un retour à la ligne de l'item flexbox
-            // https://developer.mozilla.org/fr/docs/Web/CSS/break-after
-            ba-always: (
-                // c-dim m-ba-always
-                break-after: always
-            ),
             // WIDTH
             maxw-100: (
                 // c-dim m-maxw-100
