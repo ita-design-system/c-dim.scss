@@ -15,7 +15,7 @@ $briks-components-generic: (
         enabled: true, 
         // Boolean | Responsive activé true ou false
         responsive: true, 
-        // SCSS map | Liste des propriétés du composant par défaut (c-flex seul)
+        // SCSS map | Liste des propriétés du composant par défaut
         defaults: (), 
         // SCSS map | Liste des modifieurs
         modifiers: () 
