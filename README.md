@@ -67,6 +67,11 @@ $briks-components-generic: (
         // soit ajoutent des propriétés
         // soit les deux
         modifiers: ( 
+            // MARGIN
+            m-auto: (
+                // c-dim m-m-auto
+                margin: auto
+            ),
             // OVERFLOW
             o-auto: (
                 // c-dim m-o-auto
