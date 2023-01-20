@@ -52,6 +52,14 @@ Organisation et description du fichier de configuration [_sass/_dim_generic.scss
 */
 // SCSS map
 $briks-components-generic: ( 
+/*
+    C-DIM
+    v0.1.0
+    Composant générique CSS ITADS
+    https://github.com/ita-design-system/c-dim.scss
+*/
+// SCSS map
+$briks-components-generic: ( 
     // Nom du composant
     dim: ( 
         // Composant activé true ou false
@@ -87,6 +95,47 @@ $briks-components-generic: (
             m-auto: (
                 // c-dim m-m-auto
                 margin: auto
+            ),
+            m-0: (
+                // c-dim m-m-0
+                margin: 0
+            ),
+            mt-0: (
+                // c-dim m-mt-0
+                margin-top: 0
+            ),
+            mr-0: (
+                // c-dim m-mr-0
+                margin-right: 0
+            ),
+            mb-0: (
+                // c-dim m-mb-0
+                margin-bottom: 0
+            ),
+            ml-0: (
+                // c-dim m-ml-0
+                margin-left: 0
+            ),
+            // PADDING
+            p-0: (
+                // c-dim m-p-0
+                padding: 0
+            ),
+            pt-0: (
+                // c-dim m-pt-0
+                padding-top: 0
+            ),
+            pr-0: (
+                // c-dim m-pr-0
+                padding-right: 0
+            ),
+            pb-0: (
+                // c-dim m-pb-0
+                padding-bottom: 0
+            ),
+            pl-0: (
+                // c-dim m-pl-0
+                padding-left: 0
             ),
             // OVERFLOW
             o-auto: (
