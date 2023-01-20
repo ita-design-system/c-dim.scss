@@ -4,6 +4,22 @@
 
 Composant CSS dédié aux dimensions et comportements liés à la taille des éléments.
 
+## Scope
+
+Liste des propriétés CSS utilisées par le composant
+
+* [flex-grow](https://developer.mozilla.org/fr/docs/Web/CSS/flex-grow)
+* [height](https://developer.mozilla.org/fr/docs/Web/CSS/height)
+* [margin](https://developer.mozilla.org/fr/docs/Web/CSS/margin)
+* [max-height](https://developer.mozilla.org/fr/docs/Web/CSS/max-height)
+* [max-width](https://developer.mozilla.org/fr/docs/Web/CSS/max-width)
+* [min-height](https://developer.mozilla.org/fr/docs/Web/CSS/min-height)
+* [min-width](https://developer.mozilla.org/fr/docs/Web/CSS/min-width)
+* [order](https://developer.mozilla.org/fr/docs/Web/CSS/order)
+* [overflow](https://developer.mozilla.org/fr/docs/Web/CSS/overflow)
+* [padding](https://developer.mozilla.org/fr/docs/Web/CSS/padding)
+* [width](https://developer.mozilla.org/fr/docs/Web/CSS/width)
+
 ## Typologie d'un composant générique
 
 ```scss
