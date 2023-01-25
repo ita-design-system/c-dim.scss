@@ -26,8 +26,8 @@ order: 400
 <style>
     body {
         padding: var(--ita-spacing-4);
-        background-color: var(--ita-color-primary-900);
-        color: var(--ita-color-primary-200);
+        background-color: var(--ita-color-primary-100);
+        color: var(--ita-color-primary-800);
         font-family: var(--ita-font-family-mono);
         font-size: 1rem;
         line-height: 1.5rem;
@@ -35,7 +35,7 @@ order: 400
     }
     .c-dim {
         background-color: var(--ita-color-primary-500);
-        color: var(--ita-color-primary-900);
+        color: var(--ita-color-neutral-100);
         border: var(--ita-border-6);
         padding: var(--ita-spacing-4);
     }
