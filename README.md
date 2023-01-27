@@ -8,6 +8,8 @@ Composant CSS dédié aux dimensions et comportements liés à la taille des él
 
 Liste des propriétés CSS utilisées par le composant
 
+* [aspect-ratio](https://developer.mozilla.org/fr/docs/Web/CSS/aspect-ratio)
+* [box-sizing](https://developer.mozilla.org/fr/docs/Web/CSS/box-sizing)
 * [flex-grow](https://developer.mozilla.org/fr/docs/Web/CSS/flex-grow)
 * [height](https://developer.mozilla.org/fr/docs/Web/CSS/height)
 * [margin](https://developer.mozilla.org/fr/docs/Web/CSS/margin)
@@ -52,14 +54,6 @@ Organisation et description du fichier de configuration [_sass/_dim_generic.scss
 */
 // SCSS map
 $briks-components-generic: ( 
-/*
-    C-DIM
-    v0.1.0
-    Composant générique CSS ITADS
-    https://github.com/ita-design-system/c-dim.scss
-*/
-// SCSS map
-$briks-components-generic: ( 
     // Nom du composant
     dim: ( 
         // Composant activé true ou false
@@ -91,6 +85,11 @@ $briks-components-generic: (
         // soit ajoutent des propriétés
         // soit les deux
         modifiers: ( 
+            // BOX SIZING
+            bsizing-content: (
+                // c-dim m-bsizing-content
+                box-sizing: content-box
+            ),
             // MARGIN
             m-auto: (
                 // c-dim m-m-auto
@@ -259,7 +258,7 @@ Par exemple :
     du composant c-dim selon les besoins du projet
 */
 $briks-components-generic: (
-    // Nom du composant, obligatoirement flex
+    // Nom du composant, obligatoirement dim
     dim: ( 
         // Extension activée true ou false
         enabled: true, 
@@ -272,11 +271,12 @@ $briks-components-generic: (
         // soit ajoutent des propriétés
         // soit les deux
         modifiers: ( 
-            // Exemple d'ajout d'une largeur fixe
-            fixedw-1: ( // c-dim m-fw-1
-                width: 100px,
-                min-width: 100px,
+            // Exemple d'ajout d'une largeur minimum
+            minw-1: ( // c-dim m-minw-1
                 min-width: 100px
+            ),
+            minw-2: ( // c-dim m-minw-2
+                min-width: 200px
             )
         )
     )
