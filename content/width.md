@@ -2,7 +2,7 @@
 title: Largeurs
 description: Modifieurs c-dim dédiés aux largeurs
 layout: libdoc/page-split
-order: 400
+order: 140
 ---
 ```html
 <div class="c-dim">c-dim tout seul n'a pas d'effet</div>

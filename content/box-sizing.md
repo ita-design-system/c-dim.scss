@@ -2,7 +2,7 @@
 title: Box-sizing
 description: Modifieurs c-dim dédiés à la propriété box-sizing
 layout: libdoc/page-split
-order: 300
+order: 130
 ---
 ```html
 <div class="c-dim">Comportement c-dim par défaut <br>box-sizing: border-box</div>

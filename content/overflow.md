@@ -2,7 +2,7 @@
 title: Overflow
 description: Modifieurs c-dim dédiés à la gestion des dépassements
 layout: libdoc/page-split
-order: 300
+order: 130
 ---
 ```html
 <div class="c-dim m-o-hidden">m-o-hidden <br>Pas de barre de défilement si dépassement du contenu. Ut et tempor tempor labore clita justo tempor. Sanctus voluptua clita et dolore labore elitr sit dolor sanctus, takimata no.</div>

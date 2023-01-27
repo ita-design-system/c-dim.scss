@@ -2,7 +2,7 @@
 title: Margin
 description: Modifieurs c-dim dédiés aux marges
 layout: libdoc/page-split
-order: 350
+order: 135
 ---
 ```html
 <div class="c-dim m-m-auto" id="foo">m-m-auto <br>Permet de center un élément d'une largeur spécifique dans son conteneur.</div>

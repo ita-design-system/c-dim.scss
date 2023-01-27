@@ -2,7 +2,7 @@
 title: Avec flexbox
 description: Modifieurs c-dim dédiés aux items flexbox
 layout: libdoc/page-split
-order: 600
+order: 160
 ---
 ```html
 <!-- Pour les besoins de la démo, ajout du CSS du composant générique c-dis -->

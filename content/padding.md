@@ -2,7 +2,7 @@
 title: Padding
 description: Modifieurs c-dim dédiés aux paddings
 layout: libdoc/page-split
-order: 370
+order: 137
 ---
 ```html
 <fieldset class="c-dim">
