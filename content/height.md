@@ -7,7 +7,8 @@ order: 150
 ```html
 <div class="c-dim">c-dim tout seul n'a pas d'effet</div>
 <div class="c-dim m-h-100">m-h-100<br>height: 100%</div>
-<div class="c-dim m-h-100vh">m-h-100vw<br>height: 100vh</div>
+<div class="c-dim m-h-initial">m-h-initial<br>height: initial</div>
+<div class="c-dim m-h-100vh">m-h-100vh<br>height: 100vh</div>
 <div class="c-dim m-h-auto">m-h-auto<br>height: auto</div>
 <div class="c-dim m-maxh-100">m-maxh-100<br>max-height: 100%</div>
 <div class="c-dim" m-h-100vh="xs">height: 100vh sur écrans xs</div>

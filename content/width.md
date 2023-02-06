@@ -7,6 +7,7 @@ order: 140
 ```html
 <div class="c-dim">c-dim tout seul n'a pas d'effet</div>
 <div class="c-dim m-w-100">m-w-100<br>width: 100%</div>
+<div class="c-dim m-w-initial">m-w-initial<br>width: initial</div>
 <div class="c-dim m-w-100vw">m-w-100vw<br>width: 100vw</div>
 <div class="c-dim m-w-auto">m-w-auto<br>width: auto</div>
 <div class="c-dim m-maxw-100">m-maxw-100<br>max-width: 100%</div>

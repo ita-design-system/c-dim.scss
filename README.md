@@ -169,6 +169,10 @@ $briks-components-generic: (
                 // c-dim m-w-auto
                 width: auto
             ),
+            w-initial: (
+                // c-dim m-w-initial
+                width: initial
+            ),
             // HEIGHT
             maxh-100: (
                 // c-dim m-maxh-100
@@ -185,6 +189,10 @@ $briks-components-generic: (
             h-auto: (
                 // c-dim m-h-auto
                 height: auto
+            ),
+            h-initial: (
+                // c-dim m-h-initial
+                height: initial
             ),
             // TANTIÈMES
             // Ici 12 tantièmes (douzièmes)
