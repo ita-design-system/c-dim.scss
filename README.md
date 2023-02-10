@@ -62,6 +62,8 @@ $briks-components-generic: (
         responsive: true, 
         // Liste des propriétés c-dim par défaut
         defaults: (
+            // Valeur de tantième par défaut #[FIX] https://github.com/ita-design-system/c-dim.scss/issues/1
+            --ita-fraction: '-',
             // Nombre total de tantièmes (ici des douzièmes de 100%)
             --ita-total-amount-of-fractions: 12,
             // Calcul intermédiaire pour la largeur finale qui tient compte du gap
@@ -74,6 +76,7 @@ $briks-components-generic: (
         ),
         // Rendu: 
         // .c-dim {
+            // --ita-fraction: -,
             // --ita-total-amount-of-fractions: 12;
             // --ita-item-default-width: calc(100% * var(--ita-fraction) / var(--ita-total-amount-of-fractions));
             // --ita-item-offset: calc(var(--ita-fraction) * var(--ita-gap, 0px) * ((var(--ita-total-amount-of-fractions) / var(--ita-fraction)) - 1) / var(--ita-total-amount-of-fractions));
