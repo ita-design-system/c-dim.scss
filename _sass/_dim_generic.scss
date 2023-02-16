@@ -107,6 +107,10 @@ $briks-components-generic: (
                 // c-dim m-grow
                 flex-grow: 1
             ),
+            order--1: (
+                // c-dim m-order--1
+                order: -1
+            ),
             // WIDTH
             maxw-100: (
                 // c-dim m-maxw-100

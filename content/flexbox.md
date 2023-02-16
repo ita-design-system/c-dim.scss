@@ -69,6 +69,13 @@ order: 160
     <div class="c-dim m-w-3t">3t</div>
     <div class="c-dim m-w-2t">2t</div>
 </div>
+
+<p>Le modifieur m-order--1 (order: -1) permet de placer l'élément spécifié au début de l'axe principal.</p>
+<div class="c-dis m-flex">
+    <div>1</div>
+    <div>2</div>
+    <div class="c-dim m-order--1">3</div>
+</div>
 <!-- DEMO UNIQUEMENT -->
 <style>
     body {
