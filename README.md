@@ -252,6 +252,24 @@ $briks-components-generic: (
             w-12t: (
                 // c-dim m-w-12t
                 --ita-fraction: 12
+            ),
+            // SCROLL BEHAVIOR
+            scrollb-smooth: (
+                scroll-behavior: smooth
+            ),
+            // SCROLL SNAP ALIGN
+            scrollsa-start: (
+                scroll-snap-align: start
+            ),
+            scrollsa-center: (
+                scroll-snap-align: center
+            ),
+            // SCROLL SNAP TYPE
+            scrollst-x-mandatory: (
+                scroll-snap-type: x mandatory
+            ),
+            scrollst-y-mandatory: (
+                scroll-snap-type: y mandatory
             )
         )
     )
