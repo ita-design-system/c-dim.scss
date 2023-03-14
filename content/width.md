@@ -11,6 +11,8 @@ order: 140
 <div class="c-dim m-w-100vw">m-w-100vw<br>width: 100vw</div>
 <div class="c-dim m-w-auto">m-w-auto<br>width: auto</div>
 <div class="c-dim m-maxw-100">m-maxw-100<br>max-width: 100%</div>
+<div class="c-dim m-maxw-80vw" style="width: 120vw">m-maxw-80vw<br>max-width: 80vw</div>
+<div class="c-dim m-maxw-100vw" style="width: 120vw">m-maxw-100vw<br>max-width: 100vw</div>
 <div class="c-dim m-w-1t" m-w-12t="xs">m-w-1t<br>1/12 et <br>12/12 <br>sur écrans xs</div>
 <div class="c-dim m-w-2t" m-w-12t="xs">m-w-2t<br>2/12 et <br>12/12 <br>sur écrans xs</div>
 <div class="c-dim m-w-3t" m-w-12t="xs">m-w-3t<br>3/12 et <br>12/12 <br>sur écrans xs</div>
@@ -37,7 +39,7 @@ order: 140
     .c-dim {
         background-color: var(--ita-color-primary-500);
         color: var(--ita-color-neutral-100);
-        border: var(--ita-border-6);
+        border: 1px solid var(--ita-color-primary-200);
         padding: var(--ita-spacing-4);
     }
 </style>

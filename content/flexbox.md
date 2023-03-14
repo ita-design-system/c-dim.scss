@@ -93,7 +93,7 @@ order: 160
     .c-dim, .c-dis > span {
         background-color: var(--ita-color-primary-500);
         color: var(--ita-color-neutral-100);
-        border: var(--ita-border-6);
+        border: 1px solid var(--ita-color-primary-200);
         padding: var(--ita-spacing-2);
     }
     #gap-1:checked ~ .c-dis {

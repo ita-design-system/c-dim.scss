@@ -47,7 +47,7 @@ a le même effet que les classes CSS
     .c-dim {
         background-color: var(--ita-color-primary-500);
         color: var(--ita-color-neutral-100);
-        border: var(--ita-border-6);
+        border: 1px solid var(--ita-color-primary-200);
         padding: var(--ita-spacing-4);
     }
 </style>
